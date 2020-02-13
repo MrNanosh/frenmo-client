@@ -15,7 +15,7 @@ import NavMenu from './components/Navmenu/NavMenu';
 import Header from './components/Header/Header';
 import PrivateRoute from './components/Utils/PrivateRoute';
 import PublicOnlyRoute from './components/Utils/PublicOnlyRoute';
-import FooterMenu from './components/FooterMenu./FooterMenu'
+import FooterMenu from './components/FooterMenu/FooterMenu'
 import './Styles/App.css';
 
 class App extends Component {
