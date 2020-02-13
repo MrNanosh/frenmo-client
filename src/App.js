@@ -11,10 +11,11 @@ import RegistrationPage from './routes/RegistrationPage/RegistrationPage';
 import LandingPage from './routes/LandingPage/LandingPage';
 import FeedPage from './routes/FeedPage/FeedPage';
 import NewFrenmoPage from './routes/NewFrenmoPage/NewFrenmoPage';
-import NavMenu from './components/Header/NavMenu';
+import NavMenu from './components/Navmenu/NavMenu';
 import Header from './components/Header/Header';
 import PrivateRoute from './components/Utils/PrivateRoute';
 import PublicOnlyRoute from './components/Utils/PublicOnlyRoute';
+import FooterMenu from './components/FooterMenu./FooterMenu'
 import './Styles/App.css';
 
 class App extends Component {
@@ -62,6 +63,7 @@ class App extends Component {
                 }
               />
             </Switch>
+            <FooterMenu />
           </main>
         </div>
       </BrowserRouter>
